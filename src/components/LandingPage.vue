@@ -37,6 +37,10 @@
       font-size: 1.5rem;
       margin: 0;
     }
+
+    a {
+      color: black;
+    }
   }
 }
 </style>
