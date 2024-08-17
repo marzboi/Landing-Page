@@ -29,12 +29,12 @@
     }
 
     h1 {
-      font-size: 5rem;
+      font-size: 4rem;
       margin: 0;
     }
 
     p {
-      font-size: 3rem;
+      font-size: 2rem;
       margin: 0;
     }
 
@@ -45,10 +45,6 @@
     @media only screen and (max-width: 600px) {
       h1 {
         font-size: 3rem;
-      }
-
-      p {
-        font-size: 2rem;
       }
     }
     @media only screen and (max-width: 450px) {
