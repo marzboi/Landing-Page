@@ -26,6 +26,7 @@ div {
     h2 {
       margin-right: 1rem;
       font-weight: 200;
+      justify-content: center;
     }
 
     @media only screen and (max-width: 1350px) {
@@ -35,7 +36,18 @@ div {
 
       flex-direction: column;
       justify-content: center;
-      align-self: center;
+      align-items: center;
+    }
+
+    @media only screen and (max-width: 600px) {
+      img {
+        width: 300px;
+        height: 40px;
+      }
+
+      h2 {
+        font-size: 0.8rem;
+      }
     }
   }
 }

@@ -41,6 +41,16 @@
     a {
       color: black;
     }
+
+    @media only screen and (max-width: 600px) {
+      h1 {
+        font-size: 3rem;
+      }
+
+      p {
+        font-size: 2rem;
+      }
+    }
   }
 }
 </style>
