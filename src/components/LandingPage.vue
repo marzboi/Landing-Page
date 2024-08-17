@@ -1,7 +1,7 @@
 <template>
   <div class="coming-soon-container">
     <div class="coming-soon-content">
-      <div class="emoji">😊</div>
+      <div class="emoji"><img src="/public/face-content.svg" alt="" /></div>
       <h1>Coming soon</h1>
       <p>Estamos todavía under construction.</p>
       <p>
@@ -29,12 +29,12 @@
     }
 
     h1 {
-      font-size: 2rem;
+      font-size: 5rem;
       margin: 0;
     }
 
     p {
-      font-size: 1.5rem;
+      font-size: 3rem;
       margin: 0;
     }
 

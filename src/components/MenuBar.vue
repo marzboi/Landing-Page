@@ -1,7 +1,7 @@
 <template>
   <header>
     <!-- <h1>ID&gt; PRODUCTORA</h1> -->
-    <img src="/Logo.png" alt="" width="500" height="60" />
+    <img src="/Logo.svg" alt="" width="500" height="60" />
     <h2>Productora de contenidos especializada en diversidad y justicia social</h2>
   </header>
 </template>
