@@ -51,6 +51,25 @@
         font-size: 2rem;
       }
     }
+    @media only screen and (max-width: 450px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    @media only screen and (max-width: 300px) {
+      h1 {
+        font-size: 1rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+    }
   }
 }
 </style>
