@@ -27,6 +27,7 @@ div {
       margin-right: 1rem;
       font-weight: 200;
       justify-content: center;
+      text-align: center;
     }
 
     @media only screen and (max-width: 1350px) {
