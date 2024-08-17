@@ -1,25 +1,42 @@
 <template>
-  <header>
-    <!-- <h1>ID&gt; PRODUCTORA</h1> -->
-    <img src="/Logo.svg" alt="" width="500" height="60" />
-    <h2>Productora de contenidos especializada en diversidad y justicia social</h2>
-  </header>
+  <div>
+    <header>
+      <img src="/Logo.svg" alt="" width="500" height="60" />
+      <h2>Productora de contenidos especializada en diversidad y justicia social</h2>
+    </header>
+  </div>
 </template>
 
 <style lang="scss" scoped>
-header {
+div {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   background-color: black;
-  padding: 1rem;
+  width: 100%;
 
-  h1 {
-    margin-left: 1rem;
-  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
 
-  h2 {
-    margin-right: 1rem;
-    font-weight: lighter;
+    img {
+      margin-left: 1rem;
+    }
+
+    h2 {
+      margin-right: 1rem;
+      font-weight: 200;
+    }
+
+    @media only screen and (max-width: 1350px) {
+      div {
+        justify-content: center;
+      }
+
+      flex-direction: column;
+      justify-content: center;
+      align-self: center;
+    }
   }
 }
 </style>
