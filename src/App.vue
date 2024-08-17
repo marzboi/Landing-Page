@@ -1,11 +1,13 @@
 <template>
-  <MenuBar />
+  <MenuPage />
   <LandingPage />
+  <FooterPage />
 </template>
 
 <script setup>
+import MenuPage from './components/MenuPage.vue'
 import LandingPage from './components/LandingPage.vue'
-import MenuBar from './components/MenuBar.vue'
+import FooterPage from './components/FooterPage.vue'
 </script>
 
 <style lang="scss">
