@@ -1,7 +1,7 @@
 <template>
   <div class="coming-soon-container">
     <div class="coming-soon-content">
-      <div class="emoji"><img src="/public/cabecerita.gif" alt="" /></div>
+      <div><img class="emoji" src="/public/cabecerita.gif" alt="" /></div>
       <h1>Coming soon</h1>
       <p class="bold">
         El mundo no es homogéneo, <br />tus contenidos digitales tampoco deberían serlo
@@ -28,7 +28,7 @@
     text-align: center;
 
     .emoji {
-      font-size: 3rem;
+      width: 50%;
     }
 
     h1 {
