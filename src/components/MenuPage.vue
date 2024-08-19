@@ -11,7 +11,7 @@
 div {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: #bb5a52;
   width: 100%;
 
   header {

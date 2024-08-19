@@ -1,8 +1,11 @@
 <template>
   <div class="coming-soon-container">
     <div class="coming-soon-content">
-      <div class="emoji"><img src="/public/face-content.svg" alt="" /></div>
+      <div class="emoji"><img src="/public/cabecerita.gif" alt="" /></div>
       <h1>Coming soon</h1>
+      <p class="bold">
+        El mundo no es homogéneo, <br />tus contenidos digitales tampoco deberían serlo
+      </p>
       <p>Estamos todavía under construction.</p>
       <p>
         Mientras tanto, puedes escribirnos a
@@ -29,8 +32,13 @@
     }
 
     h1 {
-      font-size: 4rem;
-      margin: 0;
+      font-size: 4.5rem;
+      margin: 1rem;
+      color: #bb5a52;
+    }
+
+    .bold {
+      font-weight: bold;
     }
 
     p {
